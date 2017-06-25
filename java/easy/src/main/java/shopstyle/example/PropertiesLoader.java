@@ -45,6 +45,7 @@ public class PropertiesLoader {
         if (!properties.containsKey(key.toLowerCase())) {
             throw new RuntimeException(key + " cannot be found in properties.");
         }
+
         return properties.get(key.toLowerCase());
     }
 }

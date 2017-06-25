@@ -46,6 +46,7 @@ final class IntegerStack implements Stack<Integer> {
         }
 
         Integer value = internalStack.peek();
+
         return Optional.of(value);
     }
 
@@ -56,6 +57,7 @@ final class IntegerStack implements Stack<Integer> {
         }
 
         Integer value = internalStack.pop();
+
         return Optional.of(value);
     }
 
